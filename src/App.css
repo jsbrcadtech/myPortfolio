@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+  height: 100% auto;
+}
+p,
+a {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-decoration: none !important;
+}
+
+.w3-button {
+  background-color: #474350 !important;
+  color: white;
+  opacity: 80%;
+  margin-left: 5%;
+}
+.w3-button:hover {
+  font-weight: bold;
+}
+#hero-container {
+  background: url(/img/me.jpg) no-repeat center center/cover;
+  opacity: 90%;
+}
+.w3-container__skills {
+  display: flex !important;
+  justify-content: center;
+}
+.w3-container__section {
+  align-items: center;
+}
+
+.w3-hero-container__body-content {
+  font-size: 2em;
+  font-weight: 700;
+}
+.w3-hero-container__title {
+  font-size: 5em;
+}
+.w3-container__title {
+  font-size: 3em;
+}
+.w3-container__subtitle {
+  font-size: 2em;
+}
+.w3-container__body-content {
+  font-size: 1.5em;
+}
+.w3-container__skills__icons {
+  font-size: 2em;
+}
+.w3-project-container,
+.w3-mypictures-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.description {
+  list-style: none;
+}
+.footer__details {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .w3-container__skills,
+  .w3-mypictures-container,
+  .w3-project-container,
+  .w3-content {
+    display: block !important;
+    text-align: center;
+  }
+}
