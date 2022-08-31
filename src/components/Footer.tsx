@@ -58,6 +58,14 @@ let Footer: React.FC = () => {
                 </a>
               );
             })}
+            <div>
+              <a
+                className="footer__details w3-hover-gray"
+                href="http://blog.justuscode.com"
+               >
+                blog.justuscode.com
+              </a>
+            </div>
           <p>&copy;2022 All rights reserved</p>
         </div>
       </footer>
