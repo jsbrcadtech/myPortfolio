@@ -61,7 +61,7 @@ let Footer: React.FC = () => {
             <div>
               <a
                 className="footer__details w3-hover-gray"
-                href="http://blog.justuscode.com"
+                href="http://jsbrcadwordpress.epizy.com/"
                >
                 blog.justuscode.com
               </a>
